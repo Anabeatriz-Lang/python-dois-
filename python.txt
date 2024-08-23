@@ -1,0 +1,17 @@
+notas = []
+for i in range(1, 5):
+    notas = float(input(f"Digite a nota do {i}º bimestre"))
+    notas.append(nota)
+
+
+    media_final = sum(notas) / len(notas)
+
+    print(f"Amedida final é: {media_final:.2f}")
+
+    if media_final >= 7.0:
+        print("Aluno aprovado!")
+    elif media_final >= 5.0:
+        print("Aluno em recuperação.")
+    else:
+
+        print("Aluno reprovado.")    
